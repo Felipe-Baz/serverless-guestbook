@@ -1,8 +1,12 @@
 /**
  * Web application
- */
+ */           
 const apiUrl = 'https://c7122cbb.us-south.apigw.appdomain.cloud/guestbook';
 const guestbook = {
+  
+  
+  
+  
   // retrieve the existing guestbook entries
   get() {
     return $.ajax({
